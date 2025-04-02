@@ -1,0 +1,35 @@
+.task {
+  border: 0.2rem solid var(--grey);
+  display: flex;
+  padding: 0.8rem;
+  align-items: center;
+  border-radius: 1rem;
+  margin-bottom: 1.2rem;
+
+  &__title {
+    flex: 1;
+    text-align: start;
+    margin-left: 0.8rem;
+    font-size: 1.8rem;
+
+    &--complete {
+      text-decoration: line-through;
+    }
+  }
+
+  &__checkbox {
+    min-height: 4rem;
+    min-width: 4rem;
+    border-color: var(--grey);
+
+    &--complete {
+      background: var(--success);
+      border-color: var(--success);
+      color: var(--white);
+    }
+  }
+
+  &--trash {
+    cursor: pointer;
+  }
+}

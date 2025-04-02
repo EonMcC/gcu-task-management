@@ -1,0 +1,12 @@
+.task-list {
+  width: 500px;
+  margin-top: 2.4rem;
+
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+
+  >p {
+    margin-bottom: 2.4rem;
+  }
+}

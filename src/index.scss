@@ -8,14 +8,14 @@ html {
   border: 0;
   box-sizing: border-box;
   font-family: var(--font);
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 body {
   text-align: center;
   display: flex;
   justify-content: center;
-  padding: 12px;
+  padding: 1.2rem;
 }
 
 h1 {
@@ -29,9 +29,9 @@ h2 {
 
 button {
   background: transparent;
-  border: 2px solid var(--primary);
-  border-radius: 5px;
-  padding: 8px 12px;
+  border: 0.2rem solid var(--primary);
+  border-radius: 0.5rem;
+  padding: 0.8rem 1.2rem;
   cursor: pointer;
 
   &:hover {
